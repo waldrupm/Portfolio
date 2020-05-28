@@ -1,0 +1,223 @@
+/*  FILE: Micheal Waldrup Portfolio
+    05/27/20
+    https://github.com/waldrupm
+*/
+
+/* Generic reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up type scale, setting base size to 18px*/
+
+/* 
+    h1 3.052em
+    h2 2.441em
+    h3 1.953em
+    h4 1.563em
+    h5 1.25em 
+*/
+
+html {
+    font-size: 112.5%;
+}
+
+body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+header {
+    box-sizing: border-box;
+}
+
+section {
+    margin-top: 2em;
+}
+
+h1 {
+    font-size: 3.052em;
+}
+
+h2 {
+    font-size: 2.441em;
+}
+
+button {
+    padding: 0.75em;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+input {
+    border-radius: 5px;
+    color: #363636;
+    border-color: #888;
+    max-width: 100%;
+    width: 100%;
+    height: 2.25rem;
+    padding: 0 1em;
+    margin-bottom: 1em;
+}
+
+textarea {
+    border-radius: 5px;
+    color: #363636;
+    border: 2px solid #888;
+    max-width: 100%;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+nav.nav-links {
+    display: inline-block;
+    margin-left: auto;
+}
+
+.nav-link {
+    margin-left: 1em;
+    color: black;
+}
+
+.container {
+    max-width: 1092px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1.25em;
+}
+
+.title-name {
+    color: black;
+    text-decoration: none;
+    font-size: 1.563em;
+}
+
+.hero {
+    margin: 2em 0;
+}
+
+.hero-container {
+    height: 500px;
+}
+
+.hero-lead {
+    font-size: 1.563em;
+}
+
+.half-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.two-third-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5px;
+}
+
+.thirds-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-big {
+    margin: 0;
+    line-height: 1em;
+    font-size: 4em;
+}
+
+span.rdot {
+    color: #F54342;
+}
+
+span.gdot {
+    color: #64D159;
+}
+
+span.bdot {
+    color: #4EC2F0;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+/* .hero-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    margin: 1em auto;
+}
+
+.hero-buttons button {
+    font-size: 1em;
+}
+
+.hero-button1 {
+    background-color: #F54342;
+}
+
+.hero-button2 {
+    background-color: #64D159;
+}
+
+.hero-button3 {
+    background-color: #4eC2F0;
+} */
+
+
+.photo {
+    text-align: center;
+}
+
+.my-photo {
+    max-width: 222px;
+    border: 1px solid #ccc;
+    margin-top: 4.5em;
+}
+
+.about .container p {
+    margin-bottom: 1em;
+    max-width: 600px;
+}
+
+.contact-form {
+    grid-column: 2 / 3;
+}
+
+.form-label {
+    margin-bottom: 0.2em;
+    color: #333;
+    display: block;
+    font-weight: 700;
+}
+
+.footer-text {
+    margin: 2em 0;
+    text-align: center;
+}
