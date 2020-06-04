@@ -123,11 +123,11 @@ nav.nav-links {
 }
 
 .hero {
-    margin: 2em 0;
+    margin: 2em 0 1.2em;
 }
 
 .hero-container {
-    /* height: 500px; */
+    height: 500px;
 }
 
 .hero-lead {
@@ -171,6 +171,9 @@ nav.nav-links {
 .hero-right {
     max-width: 60%;
     min-width: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex-grow: 2;
     z-index: 1;
 }
@@ -209,7 +212,6 @@ span.bdot {
 
 .hero-image {
     max-width: 100%;
-    width: 100%;
     height: auto;
 }
 
