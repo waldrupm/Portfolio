@@ -3,7 +3,17 @@
     https://github.com/waldrupm
 */
 
-/* TODO: Make responsive! */
+/*  TODO: Make responsive! 
+    TODO: Plan out skills section. DON'T give percentages or any garbage for them, just a fair list / logos maybe.
+    TODO: Look into adding Anime.js (subtle, not ridiculous) to hero section and section headers. Was thinking RGB wisps.
+    TODO: Add README.md
+
+    NOTE: Current thoughts on responsiveness:
+        at 950px navigation should collapse to hamburger or slide-in.
+        at 950px the about me image and text run together. slide text down under image, and
+            reduce image size to not look silly and narcissistic. 
+        
+*/
 
 /* Generic reset */
 * {
@@ -117,17 +127,23 @@ nav.nav-links {
 }
 
 .hero-container {
-    height: 500px;
+    /* height: 500px; */
 }
 
 .hero-lead {
     font-size: 1.563em;
 }
 
-.half-grid {
+/* .half-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+} */
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .two-third-grid {
@@ -143,9 +159,33 @@ nav.nav-links {
 }
 
 .hero-left {
+    max-width: 40%;
+    min-width: 300px;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 2;
+}
+
+.hero-right {
+    max-width: 60%;
+    min-width: 385px;
+    flex-grow: 2;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 960px) {
+    .hero-image {
+        display: none;
+    }
+    
+    .hero-left {
+        max-width: 100%;
+        padding-top: 85px;
+    }
+
+    /* TODO: When image disappears, increase the opacity of the RGB wisp animations to fill the whitespace (or change the animation to something a little bigger. */
 }
 
 .hero-big {
@@ -166,14 +206,11 @@ span.bdot {
     color: #4EC2F0;
 }
 
-.hero-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .hero-image {
+    max-width: 100%;
     width: 100%;
+    height: auto;
 }
 
 /* .hero-buttons {
