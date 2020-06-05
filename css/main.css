@@ -1,0 +1,101 @@
+html {
+    font-size: 112.5%;
+}
+
+body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.65;
+}
+
+span.rdot {
+    color: #F54342;
+}
+
+span.gdot {
+    color: #64D159;
+}
+
+span.bdot {
+    color: #4EC2F0;
+}
+
+#skills {
+    background-color: #343a40;
+}
+
+.hero {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.line-gradient-faux-border {
+    padding-bottom: 3px;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+  
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+        animation: rainbow 18s ease infinite;
+}
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+.navbar-brand {
+    font-size: 1.563rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 
+}
+
+.hero-bigtext {
+    color: #333;
+    margin: 0;
+    line-height: 1em;
+    font-size: 3.75rem;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+
+.section-header {
+    font-size: 2.441em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.about-text {
+    padding-left: 0.75rem;
+    max-width: 650px;
+}
+
+/* TODO TESTING BG COLORS FOR SHOWING BLOCKS, DELETE WHEN DONE */
+.test-bg-1 {
+    background-color: blueviolet;
+}
+
+.test-bg-2 {
+    background-color: chocolate;
+}
