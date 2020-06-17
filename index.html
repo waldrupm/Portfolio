@@ -10,7 +10,7 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-<!-- 
+  <!-- 
   TODO Experiment with section backgrounds, svgs, or just some stuff to add visual weight to the right hand side. It looks a little left heavy within the sections.
   TODO Realign all of the about me section, top of header doesn't line up with picture, or align picture to paragraph start (probably this) 
   TODO Fix contact form and use about 6 columns centered for it.
@@ -36,7 +36,7 @@
               <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Resume</a>
@@ -71,9 +71,48 @@
   <section id="skills">
     <div class="container text-light">
       <h2 class="section-header dark-section-header">Skills<span class="rdot">.</span></h2>
-      <p>
-        skills go here
-      </p>
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="skills-list">
+            <li>Python Development:</li>
+            <li>
+              <ul>
+                <li>Flask</li>
+                <li>Django</li>
+                <li>SQLAlchemy</li>
+                <li>Test with Unittest / PyTest</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="skills-list">
+            <li>Javascript Development:</li>
+            <li>
+              <ul>
+                <li>React</li>
+                <li>Node / Express</li>
+                <li>PostgresSQL / MongoDB</li>
+                <li>StrapiJS</li>
+                <li>Test with Mocha / Chai / Jest</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="skills-list">
+            <li>Rails Development:</li>
+            <li>
+              <ul>
+                <li>Ruby / Rails</li>
+                <li>User auth module</li>
+                <li>RailsAPI</li>
+                <li>Test with RSpec</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
   <section class="projects">
@@ -110,12 +149,12 @@
               skills in relatively short periods of time. I proved these skills during my time
               in the Navy as a Nuclear Electrician.
             </p>
-    
+
             <p>
               For employment, I’m looking for a role where I can regularly contribute to a team
               and continue to push my comfort zone further outward.
             </p>
-    
+
             <p>
               I’d really love for you to take a look at my resume. I recently received a Bachelors
               Degree in Pre-med Biology from Old Dominion University, I also graduated the Udacity

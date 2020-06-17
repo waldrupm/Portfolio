@@ -22,15 +22,17 @@ span.bdot {
 
 #skills {
     background-color: #343a40;
+    padding-bottom: 2rem;
 }
 
 .hero {
     margin-top: 30px;
     margin-bottom: 30px;
+    padding-bottom: 1.5rem;
 }
 
 .line-gradient-faux-border {
-    padding-bottom: 3px;
+    padding-bottom: 2px;
     background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
     background-size: 1800% 1800%;
   
@@ -82,12 +84,22 @@ span.bdot {
     font-size: 2.441em;
     color: #333;
     font-weight: bold;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.5rem;
+    padding-top: 2rem;
+    text-decoration: underline;
+}
+
+.dark-section-header {
+    color:#eee;
 }
 
 .about-text {
     padding-left: 0.75rem;
     max-width: 650px;
+}
+
+ul.skills-list {
+    list-style-type: none;
 }
 
 /* TODO TESTING BG COLORS FOR SHOWING BLOCKS, DELETE WHEN DONE */
